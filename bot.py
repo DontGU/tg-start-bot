@@ -32,5 +32,5 @@ async def main():
     dp.message.register(start_handler, CommandStart())
     await dp.start_polling(bot)
 
-if_name_ == "_main_":
+if __name__ == "__main__":
     asyncio.run(main())
